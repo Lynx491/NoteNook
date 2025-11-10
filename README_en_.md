@@ -1,7 +1,26 @@
-# Advanced text editor, simple, stylish and modern
+#           NoteNook++
+
+## Advanced text editor, simple, stylish and modern
 
 
-## key binds
+### screenshot
+![white theme](ss1.png)
+
+![dark theme](ss2.png)
+
+![black theme](ss3.png)
+
+![green theme](ss4.png)
+
+![blue theme](ss5.png)
+
+![purple theme](ss6.png)
+
+![pink theme](ss7.png)
+
+![cyper theme](ss8.png)
+
+### key binds
 
 Ctrl + I -> makes the line italicized 
 
