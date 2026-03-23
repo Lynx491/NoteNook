@@ -1,55 +1,70 @@
-#           NoteNook++
+# NoteNook++ 📝
 
-## Gelişmiş metin düzenleyici, sade, şık ve modern.
+> Python ve PySide6 ile oluşturulmuş, modern, çapraz platform zengin metin düzenleyici.  
+> Basit arayüz, güçlü biçimlendirme, tamamen açık kaynak.
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
+![License](https://img.shields.io/badge/License-Apache%202.0-orange)
 
-### Ekran Görüntüleri
-![beyaz tema](ss1.png)
+---
 
-![karanlık tema](ss2.png)
+## ✨ Özellikler
 
-![siyah tema](ss3.png)
+- 🎨 **8 yerleşik tema** — Beyaz, Karanlık, Siyah, Yeşil, Mavi, Mor, Pembe, Cyber
+- ✍️ **Zengin metin biçimlendirmesi** — Kalın, İtalik, AltıÇilik klavye kısayollarıyla
+- 🌍 **Çok dilli arayüz desteği**
+- 📁 **Dosya yönetimi** — Yeni, Aç, Kaydet, Farklı Kaydet
+- 🔍 **Yakınlaştır/uzaklaştırma** — Fare kaydırma veya klavye kısayolları
+- 🖥️ **Çapraz platform** — Windows & Linux desteği
 
-![yeşil tema](ss4.png)
+---
 
-![mavi tema](ss5.png)
+## 📸 Ekran Görüntüleri
 
-![mor tema](ss6.png)
+| Beyaz Tema | Siyah Tema | Cyber Tema |
+|---|---|---|
+| ![white](ss1.png) | ![dark](ss2.png) | ![cyber](ss8.png) |
 
-![pembe tema](ss7.png)
+---
 
-![cyper tema](ss8.png)
+## 🚀 Kurulum
+```bash
+# Clone the repo
+git clone https://github.com/Lynx491/NoteNook.git
+cd NoteNook
 
-### Tuş Atamaları
+# Install dependencies
+pip install PySide6,screeninfo
 
-Ctrl + I -> Satırı italik yapar
+# Run
+python main.py
+```
 
-Ctrl + B -> Satırı kalın yapar
+---
 
-Ctrl + U -> Satırın altını çizer
+## ⌨️ Klavye Kısayolları
 
-Ctrl + M -> Satırı büyütür
+| Kısayollar | Açıklama |
+|---|---|
+| `Ctrl + B` | Kalın |
+| `Ctrl + I` | İtalik |
+| `Ctrl + U` | AltıÇizilik |
+| `Ctrl + S` | Kaydet |
+| `Ctrl + Shift + S` | Farklı Kayder |
+| `Ctrl + O` | Dosya Aç |
+| `Ctrl + N` | Yeni Dosya |
+| `Ctrl + Scroll` | Yakınlaştır | Uzaklaştır |
 
-Ctrl + L -> Satırı Küçültür
+---
 
-Ctrl + N -> yeni dosya oluşturur, eğer önceki kaydedildiyse onu boşverir aksi halde uyarı bildirimi gönderir. (yeni dosya)
+## 🛠️ Kurulum
 
-Ctrl + O -> yeni bir dosya açar ve seçilen dosyayı yükler, daha önce ki dosya kaydedilip kaydedilmediğini kontrol etmez. (dosya aç)
+- [PySide6](https://doc.qt.io/qtforpython/) — GUI framework
+- Python 3.10+
 
-Ctrl + S -> eğer dosya farklı şekilde kaydedilmiş veya dosya açılmış ise, değişiklikleri kaydeder (kaydet)
+---
 
-Ctrl + Shift + S -> dosyayı farklı kaydeder (farklı kaydet)
+## 📄 Lisans
 
-Ctrl + Shift + M -> yakınlaştırır
-
-Ctrl + Shift + L -> uzaklaştırır
-
-Ctrl + Shift + I -> Tüm metni italik yapar
-
-Ctrl + Shift + B -> Tüm metni kalın yapar
-
-Ctrl + Shift + U -> Tüm metnin altını çizer
-
-Ctrl + Mouse scroll key(farenin tekerleği) yakınlaştır/uzaklaştır
-
-Mouse Scroll key(farenin tekerleği), yukarıya aşağıya gezinmeye yarar
+Apache 2.0 — see [LICENSE](LICENSE) for details.
