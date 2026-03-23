@@ -1,55 +1,70 @@
-#           NoteNook++
+# NoteNook++ 📝
 
-## Advanced text editor, simple, stylish and modern
+> A modern, cross-platform rich text editor built with Python & PySide6.  
+> Simple interface, powerful formatting, fully open source.
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
+![License](https://img.shields.io/badge/License-Apache%202.0-orange)
 
-### screenshot
-![white theme](ss1.png)
+---
 
-![dark theme](ss2.png)
+## ✨ Features
 
-![black theme](ss3.png)
+- 🎨 **8 built-in themes** — White, Dark, Black, Green, Blue, Purple, Pink, Cyber
+- ✍️ **Rich text formatting** — Bold, Italic, Underline with keyboard shortcuts
+- 🌍 **Multi-language UI support**
+- 📁 **File management** — New, Open, Save, Save As
+- 🔍 **Zoom in/out** — Mouse scroll or keyboard shortcuts
+- 🖥️ **Cross-platform** — Windows & Linux support
 
-![green theme](ss4.png)
+---
 
-![blue theme](ss5.png)
+## 📸 Screenshots
 
-![purple theme](ss6.png)
+| White Theme | Dark Theme | Cyber Theme |
+|---|---|---|
+| ![white](ss1.png) | ![dark](ss2.png) | ![cyber](ss8.png) |
 
-![pink theme](ss7.png)
+---
 
-![cyper theme](ss8.png)
+## 🚀 Installation
+```bash
+# Clone the repo
+git clone https://github.com/Lynx491/NoteNook.git
+cd NoteNook
 
-### key binds
+# Install dependencies
+pip install PySide6
 
-Ctrl + I -> makes the line italicized 
+# Run
+python main.py
+```
 
-Ctrl + B -> makes the line bold 
+---
 
-Ctrl + U -> underlines the line
+## ⌨️ Keyboard Shortcuts
 
-Ctrl + M -> enlarges the line
+| Shortcut | Action |
+|---|---|
+| `Ctrl + B` | Bold |
+| `Ctrl + I` | Italic |
+| `Ctrl + U` | Underline |
+| `Ctrl + S` | Save |
+| `Ctrl + Shift + S` | Save As |
+| `Ctrl + O` | Open File |
+| `Ctrl + N` | New File |
+| `Ctrl + Scroll` | Zoom In/Out |
 
-Ctrl + L -> reduces the line
+---
 
-Ctrl + N -> creates a new file, if the existing file is saved it will be moved to the trash. (new file)
+## 🛠️ Built With
 
-Ctrl + O -> opens a new file and loads the selected file, does not check if it has been saved before. (open file)
+- [PySide6](https://doc.qt.io/qtforpython/) — GUI framework
+- Python 3.10+
 
-Ctrl + S -> saves the file if the file has been opened or saved differently, otherwise it does nothing. (save)
+---
 
-Ctrl + Shift + S -> saves the file to a different location. (save as)
+## 📄 License
 
-Ctrl + Shift + M -> zoom in
-
-Ctrl + Shift + L -> zoom out
-
-Ctrl + Shift + I -> makes all text italic
-
-Ctrl + Shift + B -> makes all text bold
-
-Ctrl + Shift + U -> underlines the entire text
-
-Ctrl + Mouse Scroll key, zoom in/zoom out
-
-Mouse Scroll key, up/dawn navigation
+Apache 2.0 — see [LICENSE](LICENSE) for details.
