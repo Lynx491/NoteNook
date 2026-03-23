@@ -35,7 +35,7 @@ git clone https://github.com/Lynx491/NoteNook.git
 cd NoteNook
 
 # Install dependencies
-pip install PySide6
+pip install PySide6,screeninfo
 
 # Run
 python main.py
